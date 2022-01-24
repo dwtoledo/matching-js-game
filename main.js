@@ -5,7 +5,7 @@ import "./src/styles/elements/base.css";
 import PlayerName from "./src/components/PlayerName";
 import BoardGame from "./src/objects/BoardGame";
 
-const AMOUNT_OF_CARDS = 2;
+const AMOUNT_OF_CARDS = 6;
 
 const $root = document.getElementById("root");
 const $playerOneElement = PlayerName("Player1");

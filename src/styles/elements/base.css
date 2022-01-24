@@ -6,4 +6,6 @@
 body {
 	font-family: "Press Start 2P";
 	background-color: var(--color-pomb-and-power);
+	max-width: 320px;
+	margin: 0px auto;
 }
