@@ -3,7 +3,7 @@ import "./style.css";
 function CardGame() {
 	return `
     <article class="card-game">
-        CardGame
+        <object data="../src/images/alura-pixel.svg"></object>
     </article>
     `;
 }
