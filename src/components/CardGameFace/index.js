@@ -1,6 +1,6 @@
 import "./style.css";
 
-function CardGame() {
+function CardGameFace() {
 	return /*html*/ `
     <div class="flip-card">
         <article class="card-game">
@@ -14,4 +14,4 @@ function CardGame() {
     `;
 }
 
-export default CardGame;
+export default CardGameFace;
