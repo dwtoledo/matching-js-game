@@ -1,16 +1,13 @@
 import "./style.css";
 
-function CardGameFace() {
+function CardGameFace(
+	icon = "alura-pixel",
+	alt = "Clique na carta para virá-la."
+) {
 	return /*html*/ `
-    <div class="flip-card">
-        <article class="card-game">
-            <div class="card-game__front">
-                <object data="../src/images/alura-pixel.svg"></object>
-            </div>
-            <div class="card-game__back">
-            </div>
-        </article>
-    </div>
+    <article class="card-game-face">
+        <img src="../src/images/${icon}.png" alt="${alt}" />
+    </article>
     `;
 }
 

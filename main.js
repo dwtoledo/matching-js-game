@@ -5,7 +5,7 @@ import "./src/styles/elements/base.css";
 import BoardGame from "./src/objects/BoardGame";
 import ScoreBoard from "./src/objects/ScoreBoard";
 
-const AMOUNT_OF_CARDS = 6;
+const AMOUNT_OF_CARDS = 2;
 const $root = document.getElementById("root");
 
 $root.insertAdjacentHTML(
