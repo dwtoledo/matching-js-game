@@ -1,7 +1,7 @@
 import "./style.css";
 
 function PlayerName(name) {
-	return `
+	return /*html*/ `
     <span class="player-name">
         ${name}
     </span>

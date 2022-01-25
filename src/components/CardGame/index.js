@@ -1,7 +1,7 @@
 import "./style.css";
 
 function CardGame() {
-	return `
+	return /*html*/ `
     <div class="flip-card">
         <article class="card-game">
             <div class="card-game__front">
