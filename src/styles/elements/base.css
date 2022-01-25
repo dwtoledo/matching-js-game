@@ -3,6 +3,12 @@
 	src: url("../../fonts/PressStart2P-Regular.ttf");
 }
 
+html,
+body {
+	font-size: 10px;
+	height: 100%;
+}
+
 body {
 	font-family: "Press Start 2P";
 	background-color: var(--color-pomb-and-power);
